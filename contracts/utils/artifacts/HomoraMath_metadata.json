@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/utils/HomoraMath.sol": "HomoraMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/math/SafeMath.sol": {
+			"keccak256": "0xcc78a17dd88fa5a2edc60c8489e2f405c0913b377216a5b26b35656b2d0dab52",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://526dc85e1f9b9b45830e202568d267d93dde7a4fcccf4ad7798dadcd92304d3c",
+				"dweb:/ipfs/QmaoXMB972J3cSDLtBq3xBo4jLwqD2uzXTwujtSPqkYVhR"
+			]
+		},
+		"contracts/utils/HomoraMath.sol": {
+			"keccak256": "0x325d3a423185435fa8e5fb495a0140b5b9910fabde67078afcbb20e3ddd941fd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31216f5b9878574c91d57936f4cda8cb952bd1dd102279d73805c5a1e2f0f6aa",
+				"dweb:/ipfs/Qmc1eXQb5ynAMvogaBZvY5RpCWhEeWX9SuKtd8qafNnESP"
+			]
+		}
+	},
+	"version": 1
+}

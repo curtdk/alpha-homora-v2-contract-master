@@ -1,0 +1,62 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220596230600dafc91db09b5b93600c108d15a40fcc352e1d0a0d67535d073c0eff64736f6c634300060c0033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 MSIZE PUSH3 0x30600D 0xAF 0xC9 SAR 0xB0 SWAP12 JUMPDEST SWAP4 PUSH1 0xC LT DUP14 ISZERO LOG4 0xF 0xCC CALLDATALOAD 0x2E SAR EXP 0xD PUSH8 0x535D073C0EFF6473 PUSH16 0x6C634300060C00330000000000000000 ",
+			"sourceMap": "184:1465:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220596230600dafc91db09b5b93600c108d15a40fcc352e1d0a0d67535d073c0eff64736f6c634300060c0033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 MSIZE PUSH3 0x30600D 0xAF 0xC9 SAR 0xB0 SWAP12 JUMPDEST SWAP4 PUSH1 0xC LT DUP14 ISZERO LOG4 0xF 0xCC CALLDATALOAD 0x2E SAR EXP 0xD PUSH8 0x535D073C0EFF6473 PUSH16 0x6C634300060C00330000000000000000 ",
+			"sourceMap": "184:1465:1:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"divCeil(uint256,uint256)": "infinite",
+				"fdiv(uint256,uint256)": "infinite",
+				"fmul(uint256,uint256)": "infinite",
+				"sqrt(uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
